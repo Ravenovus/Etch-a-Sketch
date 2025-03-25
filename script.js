@@ -26,7 +26,7 @@ function resetGrid(){
 function resizeGrid(){
     let newSize = 0;
 
-    while(newSize <= 0 || newSize >= 101){
+    while(newSize <= 0 || newSize >= 101 || isNaN(newSize)){
         newSize = prompt("Please enter a size between 1-100");
     }
 
