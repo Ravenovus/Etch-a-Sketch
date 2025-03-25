@@ -9,7 +9,7 @@ function createGrid(side){
         block.style.width = `${blockSize}px`;
         block.style.height = `${blockSize}px`;
         block.addEventListener("mouseover", function (e) {
-            e.target.style.background = "black";
+            e.target.style.background = colorPicker.value;
         });
         grid.appendChild(block);
     }
@@ -39,6 +39,7 @@ let size = 16;
 
 let resetButton = document.querySelector("#reset");
 let resizeButton = document.querySelector("#changeSize");
+let colorPicker = document.querySelector("#colorInput");
 
 resetButton.addEventListener("click", resetGrid);
 resizeButton.addEventListener("click", resizeGrid);
