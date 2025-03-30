@@ -1,5 +1,7 @@
 # Etch-a-Sketch
 
+https://ravenovus.github.io/Etch-a-Sketch/
+
 Project created as part of The Odin Project course
 
 The project creates a grid and allows the user to:
